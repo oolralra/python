@@ -1,0 +1,9 @@
+<body>
+  {%for obj in reviews.all%}
+  <h1>제목 : {{obj.title}}</h1>
+  <p>내용 :{{obj.body}}</p>
+  <p>올린 날짜: {{boj.date}}</p>
+  {%endfor%}
+</body>
+
+<!--for문을 써서 Review 객체 전체를 순회한다.-->

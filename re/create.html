@@ -1,0 +1,8 @@
+<body>
+  <h1>리뷰 쓰기</h1>
+  <form method="POST" action=''>
+      {%csrf_token%}
+      {{form.as_p}}
+      <input type = 'submit' value = '등록하기'/>
+  </form>
+</body>
